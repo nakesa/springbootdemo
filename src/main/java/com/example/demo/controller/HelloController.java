@@ -8,7 +8,9 @@ public class HelloController {
 
     @RequestMapping("/test")
     public String test() {
-        String res = "master say ok";
-        return "ok";
+        String res = "";
+        res += "hotFix say ok ";
+        res += "master say ok ";
+        return res;
     }
 }
