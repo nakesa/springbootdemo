@@ -11,6 +11,7 @@ public class HelloController {
         String res = "";
         res += "hotFix say ok ";
         res += "master say ok ";
+        res += "a new line";
         return res;
     }
 }
